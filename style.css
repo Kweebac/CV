@@ -9,6 +9,15 @@ a {
   color: black;
   text-decoration: none;
 }
+li a {
+  color: wheat;
+}
+#projects li {
+  list-style: none;
+}
+#repo {
+  margin-right: 4px;
+}
 .CV {
   width: 670px;
   height: 947px;
@@ -62,7 +71,8 @@ a {
   align-items: flex-start;
 }
 .CV .body .box {
-  width: 45%;
+  width: 47%;
+  /* border: 1px solid white; */
 
   display: flex;
   flex-flow: column;
@@ -71,7 +81,7 @@ a {
   font-family: IBM Plex Mono, monospace;
   font-size: 15px;
   font-weight: bold;
-  color: rgb(238, 105, 155);
+  color: rgb(250, 205, 72);
   /* text-decoration: underline; */
 }
 .CV .body .box .job {
