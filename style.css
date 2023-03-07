@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.CV {
+  width: 670px;
+  height: 947px;
+  background-color: #1a1a1a;
+  border-radius: 18px;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.CV .header {
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+}
+.CV .header .content.name {
+  font-family: IBM Plex Mono, monospace;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.CV .header .content {
+  font-family: IBM Plex Mono, sans-serif;
+  font-size: 13px;
+}
+.CV .header .content.phone,
+.CV .header .content.email,
+.CV .header .content.github {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.header img {
+  height: 13px;
+}
+.body img {
+  height: 10px;
+}
+
+.CV .body {
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  padding: 40px;
+  gap: 40px;
+  height: 705px;
+  border: 1px solid white;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+.CV .body .box {
+  width: 45%;
+
+  display: flex;
+  flex-flow: column;
+}
+.CV .body .box .title {
+  font-family: IBM Plex Mono, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(238, 105, 155);
+  /* text-decoration: underline; */
+}
+.CV .body .box .job {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 13px;
+}
+.CV .body .box .top {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 13px;
+  margin-top: 2px;
+}
+
+.CV .body .box .text div {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 12px;
+  color: rgb(216, 216, 216);
+  margin-bottom: 13px;
+}
+.CV .body .box .text li {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 12px;
+  color: rgb(216, 216, 216);
+  margin-left: 15px;
+}
