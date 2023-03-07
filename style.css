@@ -5,8 +5,12 @@ body {
   display: flex;
   justify-content: center;
 }
-a {
+.header a {
   color: black;
+  text-decoration: none;
+}
+a {
+  color: wheat;
   text-decoration: none;
 }
 li a {
@@ -17,6 +21,9 @@ li a {
 }
 #repo {
   margin-right: 4px;
+}
+#projects {
+  margin-bottom: 13px;
 }
 .CV {
   width: 670px;
@@ -71,8 +78,7 @@ li a {
   align-items: flex-start;
 }
 .CV .body .box {
-  width: 47%;
-  /* border: 1px solid white; */
+  width: 45%;
 
   display: flex;
   flex-flow: column;
@@ -82,14 +88,14 @@ li a {
   font-size: 15px;
   font-weight: bold;
   color: rgb(250, 205, 72);
-  /* text-decoration: underline; */
+  text-decoration: underline;
+  margin-bottom: 13px;
 }
 .CV .body .box .job {
   color: rgb(255, 255, 255);
   font-family: IBM Plex Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 13px;
 }
 .CV .body .box .top {
   color: rgb(255, 255, 255);
@@ -111,4 +117,37 @@ li a {
   font-size: 12px;
   color: rgb(216, 216, 216);
   margin-left: 15px;
+}
+
+.CV .body .box .list {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 12px;
+  color: rgb(216, 216, 216);
+}
+#list1 {
+  margin-bottom: 13px;
+}
+.CV .body .box .list .skill {
+  display: flex;
+  justify-content: space-between;
+}
+.CV .body .box .list .skill .circle-container {
+  margin-right: 50px;
+
+  display: flex;
+}
+
+.CV .body .box .list .skill .circle-container .circlebox {
+  width: 15px;
+  height: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CV .body .box .list .skill .circle-container .circlebox .circle {
+  width: 12px;
+  height: 12px;
+  background-color: #292929;
+  border-radius: 50%;
 }
