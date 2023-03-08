@@ -18,13 +18,11 @@ li a {
 }
 #projects {
   margin-top: 13px;
+  margin-bottom: 26px;
   list-style: none;
 }
 #repo {
   margin-right: 4px;
-}
-#projects {
-  margin-bottom: 13px;
 }
 .CV {
   width: 670px;
