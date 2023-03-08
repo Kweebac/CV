@@ -16,7 +16,8 @@ a {
 li a {
   color: wheat;
 }
-#projects li {
+#projects {
+  margin-top: 13px;
   list-style: none;
 }
 #repo {
@@ -88,7 +89,6 @@ li a {
   font-size: 15px;
   font-weight: bold;
   color: rgb(250, 205, 72);
-  text-decoration: underline;
   margin-bottom: 13px;
 }
 .CV .body .box .job {

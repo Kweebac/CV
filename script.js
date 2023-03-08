@@ -16,12 +16,24 @@ function changeCircleColor(num, CIRCLES) {
 
 let circles = [2, 3, 2, 1, 3, 4, 3];
 
-const GIT_CIRCLES = document.querySelectorAll(".circle-container.git .circlebox .circle");
-const HTML_CIRCLES = document.querySelectorAll(".circle-container.html .circlebox .circle");
-const JS_CIRCLES = document.querySelectorAll(".circle-container.js .circlebox .circle");
-const CPP_CIRCLES = document.querySelectorAll(".circle-container.cpp .circlebox .circle");
-const PROBLEM_CIRCLES = document.querySelectorAll(".circle-container.problem .circlebox .circle");
-const ATTENTION_CIRCLES = document.querySelectorAll(".circle-container.attention .circlebox .circle");
+const GIT_CIRCLES = document.querySelectorAll(
+  ".circle-container.git .circlebox .circle"
+);
+const HTML_CIRCLES = document.querySelectorAll(
+  ".circle-container.html .circlebox .circle"
+);
+const JS_CIRCLES = document.querySelectorAll(
+  ".circle-container.js .circlebox .circle"
+);
+const CPP_CIRCLES = document.querySelectorAll(
+  ".circle-container.cpp .circlebox .circle"
+);
+const PROBLEM_CIRCLES = document.querySelectorAll(
+  ".circle-container.problem .circlebox .circle"
+);
+const ATTENTION_CIRCLES = document.querySelectorAll(
+  ".circle-container.attention .circlebox .circle"
+);
 const COMMUNICATION_CIRCLES = document.querySelectorAll(
   ".circle-container.communication .circlebox .circle"
 );
