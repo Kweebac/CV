@@ -69,6 +69,7 @@ li a {
 .body img {
   height: 10px;
 }
+
 .CV .body {
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
@@ -76,12 +77,14 @@ li a {
   gap: 40px;
   height: 705px;
   border: 1px solid white;
+
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
 }
 .CV .body .box {
   width: 46%;
+
   display: flex;
   flex-flow: column;
 }
@@ -99,6 +102,7 @@ li a {
   font-size: 20px;
   font-weight: bold;
 }
+
 .CV .body .box .list {
   font-family: IBM Plex Sans, sans-serif;
   font-size: 12px;
@@ -113,11 +117,13 @@ li a {
 }
 .CV .body .box .list .skill .circle-container {
   margin-right: 50px;
+
   display: flex;
 }
 .CV .body .box .list .skill .circle-container .circlebox {
   width: 15px;
   height: 15px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,6 +138,7 @@ li a {
   margin-right: 62px;
   color: wheat;
 }
+
 .CV .body .box .top {
   color: rgb(255, 255, 255);
   font-family: IBM Plex Sans, sans-serif;
@@ -168,6 +175,7 @@ li a {
 }
 .qual-container .line {
   width: 9px;
+
   display: flex;
   justify-content: center;
 }
@@ -185,11 +193,12 @@ li a {
 #qualifications-title {
   margin: 13px 0px;
 }
+
 #nomargin {
   margin-bottom: 0;
 }
 
-/* HOBBIES *
+/* HOBBIES */
 .outer-container {
   margin-top: 10px;
   display: flex;
@@ -197,6 +206,7 @@ li a {
 }
 .inner-container {
   gap: 10px;
+
   display: flex;
   flex-flow: column;
 }
