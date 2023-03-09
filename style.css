@@ -40,7 +40,7 @@ li a {
 }
 
 .CV .header {
-  background-image: url(data:image/jpeg;base64,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);
+  background-image: url(https://img.freepik.com/free-vector/white-minimal-hexagons-background_79603-1453.jpg);
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
   background-color: #ffffff;
@@ -69,7 +69,6 @@ li a {
 .body img {
   height: 10px;
 }
-
 .CV .body {
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
@@ -77,14 +76,12 @@ li a {
   gap: 40px;
   height: 705px;
   border: 1px solid white;
-
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
 }
 .CV .body .box {
   width: 46%;
-
   display: flex;
   flex-flow: column;
 }
@@ -102,7 +99,6 @@ li a {
   font-size: 20px;
   font-weight: bold;
 }
-
 .CV .body .box .list {
   font-family: IBM Plex Sans, sans-serif;
   font-size: 12px;
@@ -117,13 +113,11 @@ li a {
 }
 .CV .body .box .list .skill .circle-container {
   margin-right: 50px;
-
   display: flex;
 }
 .CV .body .box .list .skill .circle-container .circlebox {
   width: 15px;
   height: 15px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +132,6 @@ li a {
   margin-right: 62px;
   color: wheat;
 }
-
 .CV .body .box .top {
   color: rgb(255, 255, 255);
   font-family: IBM Plex Sans, sans-serif;
@@ -175,7 +168,6 @@ li a {
 }
 .qual-container .line {
   width: 9px;
-
   display: flex;
   justify-content: center;
 }
@@ -193,12 +185,11 @@ li a {
 #qualifications-title {
   margin: 13px 0px;
 }
-
 #nomargin {
   margin-bottom: 0;
 }
 
-/* HOBBIES */
+/* HOBBIES *
 .outer-container {
   margin-top: 10px;
   display: flex;
@@ -206,7 +197,6 @@ li a {
 }
 .inner-container {
   gap: 10px;
-
   display: flex;
   flex-flow: column;
 }
