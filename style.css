@@ -41,6 +41,8 @@ li a {
 
 .CV .header {
   background-image: url(https://img.freepik.com/free-vector/white-minimal-hexagons-background_79603-1453.jpg);
+  background-size: cover;
+  background-position: bottom;
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
   padding: 30px 40px;
