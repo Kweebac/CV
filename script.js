@@ -14,7 +14,7 @@ function changeCircleColor(num, CIRCLES) {
   }
 }
 
-let circles = [2, 3, 2, 1, 3, 4, 3];
+let circles = [3, 4, 2, 2, 4, 5, 3];
 
 const GIT_CIRCLES = document.querySelectorAll(".git .circle");
 const HTML_CIRCLES = document.querySelectorAll(".html .circle");
