@@ -112,6 +112,9 @@ li a {
 #list1 {
   margin-bottom: 13px;
 }
+#list2 {
+  margin-bottom: 2px;
+}
 .CV .body .box .list .skill {
   display: flex;
   justify-content: space-between;
