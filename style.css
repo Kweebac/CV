@@ -192,7 +192,7 @@ li a {
   color: #1a1a1a;
 }
 #qualifications-title {
-  margin: 13px 0px;
+  margin-bottom: 13px;
 }
 
 #nomargin {
@@ -220,4 +220,8 @@ li a {
 .inner-container img {
   height: 55px;
   width: 55px;
+}
+
+#odin-title {
+  margin-top: 26px;
 }
